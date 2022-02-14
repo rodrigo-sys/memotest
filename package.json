@@ -1,0 +1,18 @@
+{
+  "name": "memotest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "memotest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "cypress": "^9.3.1"
+  }
+}

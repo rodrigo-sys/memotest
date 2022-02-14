@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+
+.fila-juego{
+  margin:0;
+  height: 25vh;
+}
+
+.columna-juego{
+  padding:0;
+  /* border: 1px solid white; */
+  /* width: 25vw; */
+}
+
+.columna-juego:hover{
+  background-color: rgb(20,20,20);
+}
+
+.cuadro {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  cursor: pointer;
+  height: 100%;
+}
+
+.completo{
+  cursor: not-allowed;
+}
+
+#tablero{
+  transition: filter 0.1s ease;
+}
+
+.tablero-completo{
+  filter: blur(4px);
+  cursor: not-allowed;
+}
+
+#mensaje-fin-juego{
+  display:none;
+
+  padding: 25px;
+  border: 2px dashed;
+
+  background-color: rgba(0, 0, 0, 0.8);
+
+  color:yellow;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px red;
+
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
